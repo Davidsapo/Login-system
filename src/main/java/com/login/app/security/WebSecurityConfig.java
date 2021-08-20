@@ -42,13 +42,15 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements W
                 .disable()
 
                 .formLogin()
-                .loginPage("/login").permitAll()
+                .loginPage("/login")
+                .usernameParameter("email")
+                .permitAll()
                 .successHandler(authenticationSuccessHandler())
 
-                .and().
+                .and()
 
-                logout().
-                logoutSuccessUrl("/login-app/");
+                .logout()
+                .logoutSuccessUrl("/login-app/");
     }
 
 }

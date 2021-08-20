@@ -22,13 +22,13 @@
     <form method="POST" action="/login">
         <table align="center">
             <tr>
-                <td><label>Username: </label></td>
+                <td><label>Email: </label></td>
                 <style>
                     input[type="text"] {
                         font-size: 18px;
                     }
                 </style>
-                <td><input name="username" type="text" placeholder="Username" autofocus="true"/></td>
+                <td><input name="email" type="text" placeholder="Username" autofocus="true"/></td>
             </tr>
 
             <tr>

@@ -6,7 +6,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Registration</title>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/styles.css">
 </head>
 
@@ -35,7 +35,7 @@
             </tr>
             <tr>
                 <td><label for="password">Password: </label></td>
-                <td><form:input cssStyle="font-size: 18px" path="password"/></td>
+                <td><form:input type="password" cssStyle="font-size: 18px" path="password"/></td>
             </tr>
             <tr>
                 <td colspan="3">

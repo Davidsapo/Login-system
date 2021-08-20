@@ -2,7 +2,6 @@ package com.login.app.mapper;
 
 import com.login.app.dto.UserGetDTO;
 import com.login.app.dto.UserPostDTO;
-import com.shopping.cart.dto.*;
 import com.login.app.entity.User;
 import org.springframework.stereotype.Component;
 
